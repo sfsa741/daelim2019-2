@@ -1,0 +1,132 @@
+ul {
+    background: rgb(49, 49, 49);
+    height: 30px;
+    list-style: none;
+    margin: 0px;
+    padding: 15px 10px 8px;
+    width: 100%
+  }
+  ul li {
+    float: left;
+    margin-right: 10px
+  }               
+  ul li a {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none
+  }
+  
+  /* Home Title */
+  .home-title {
+    color: rgb(159, 185, 255);
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 50px;
+  }
+  
+  /* article background */
+  .article-bg {
+    background-color: rgb(230, 255, 120);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    height: 300px;
+    padding: 15px;
+  }
+  .article-2nd-bg {
+    background-color:rgb(49, 49, 49);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 15px;
+  }
+  .article-3rd-bg {
+    background-color:rgb(230, 100, 100);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 15px;
+
+  }
+
+  .article-4rd-bg {
+    background-color:rgb(200, 200, 100);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 15px;
+
+  }
+  
+  .article-5rd-bg {
+    background-color:rgb(16, 165, 165);
+    color: rgb(255, 255, 255);
+    text-align: center;
+
+  }
+
+  .article-6rd-bg {
+    background-color:rgb(147, 135, 253);
+    color: rgb(255, 255, 255);
+    float: left; 
+    height: 300px;
+    width: 50%;
+    text-align: center;
+    line-height: 300px;
+  }
+
+  .article-7rd-bg {
+    background-color:lightblue;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    float: right;
+    height: 300px;
+    width: 50%;
+    text-align: center;
+    line-height: 300px;
+  }
+
+  .image-cropper-50{
+    height: 200px;
+    margin: 15px;
+    width: 200px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius:50%;
+    -ms-border-radius:50%;
+    -o-border-radius:50%;
+    border-radius: 50%;
+    text-align:center;
+  }
+  .image-cropper-25 {
+    height: 200px;
+    margin: 15px;
+    width: 200px;
+    -webkit-border-radius: 25%;
+    -moz-border-radius:25%;
+    -ms-border-radius:25%;
+    -o-border-radius:25%;
+    border-radius: 25%;
+    text-align:center;
+  
+  }
+  .image-cropper-15{
+    height: 200px;
+    margin: 15px;
+    width: 200px;
+    -webkit-border-radius: 15%;
+    -moz-border-radius:15%;
+    -ms-border-radius:15%;
+    -o-border-radius:15%;
+    border-radius: 15%;
+    text-align:center;
+  
+  }
+  
+  
+  /* margin, padding, border test */
+  .box-test {
+    background-color: rgb(10, 226, 93);
+    display: inline-block;
+    border: 10px solid skyblue;
+    margin: 10px;
+    padding: 10px;
+    width: 20%;
+    height: 50%;
+  }
