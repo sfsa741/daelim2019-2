@@ -1,5 +1,172 @@
 /* v0.1.0 */
+.full-bg {
+  background: url(images/commonOAXD6VDG.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover; 
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  display: table;
+}
 
+
+
+.container {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.header-title {
+  display: inline-block;
+  width: 50%;
+  height: 140px;
+  font-size: 35px;
+  font-weight: bold;
+  padding-top: 25px;
+  background: rgba(11, 0, 71, 0.8);
+  color: #fff;
+}
+
+.header-sub-title {
+    font-size: 20px;
+    color:  rgb(255, 244, 180);
+  }
+
+  {
+    width:30%;
+    height:30%;
+    margin:0;
+    background:#545e7a;
+   
+  }
+
+  .ghost
+  {
+    margin-left: 380px;
+    margin-top: 75px;
+    /* position centered */
+   display:inline-block;
+   
+    top: 100%;
+    left:100%;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    -ms-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    /* text styles */
+    font-family: Tahoma, Verdana, Segoe, sans-serif;
+    font-size: 2.4em;
+    letter-spacing: 0.1em;
+    color:#000000;
+    /* modify text */
+    text-decoration:none;
+    text-transform:uppercase;
+    text-rendering:optimizeLegibility;
+    /* add a border */
+    border:0.15em solid rgb(0, 0, 0);
+    padding:0.4em 0.6em;
+    /* animate the change */
+    -webkit-transition: color 300ms, background 500ms, border-color 700ms;
+    transition: color 300ms, background 500ms, border-color 700ms;
+  }
+  .ghost:hover
+  {
+    background:#c5ffa4;
+    border-color:#000000;
+    color:#545e7a;
+  }
+
+nav {
+  top : 0;
+  width: 100%;
+  position:fixed;
+}
+
+.menu {
+  border: none;
+  border: 0px;
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Nanum Pen Script', cursive;
+  font-size: 28px;
+  font-weight: bold;
+}
+  
+.menu ul {
+  background: rgba(109,109,109);
+  height: 70px;
+  list-style: none;
+  margin: 0px;
+}
+  
+.menu li {
+  float: left;
+}
+  
+.menu li a {
+  background: rgb(109,109,109);
+  color: #cccccc;
+  display: block;
+  font-weight: normal;
+  line-height: 70px;
+  margin: 0px;
+  padding: 0px 25px;
+  text-align: center;
+  text-decoration: none;
+}
+  
+.menu li a:hover, 
+.menu ul li:hover a {
+  background: rgb(71,71,71);
+  color: #FFFFFF;
+  text-decoration: none;
+}
+  
+.menu li ul {
+  background: rgb(109,109,109);
+  display: none; 
+  height: auto;
+  padding: 0px;
+  margin: 0px;
+  border: 0px;
+  position: absolute;
+  width: 200px;
+  z-index: 200;
+}
+  
+.menu li:hover ul {
+  display: block; /* mouse hover action */
+}
+  
+.menu li li {
+  background: rgb(109,109,109);
+  display: block;
+  width: 200px;
+}
+  
+.menu li:hover li a {
+  background: none;
+  padding-bottom: 15px;
+}
+  
+.menu li ul a {
+  display: block;
+  height: 50px;
+  font-size: 28px;
+  font-style: normal;
+  margin: 0px;
+  text-align: left;
+}
+  
+.menu li ul a:hover, 
+.menu li ul li:hover a {
+  background: rgb(71,71,71);
+  border: 0px;
+  color: #ffffff;
+  text-decoration: none;
+}
+/* 
 ul {
     background: rgb(49, 49, 49);
     height: 30px;
@@ -17,7 +184,7 @@ ul {
     font-size: 20px;
     font-weight: bold;
     text-decoration: none
-  }
+  } */
   
   /* Home Title */
   .home-title {
@@ -30,7 +197,7 @@ ul {
   /* article background */
   .article-bg {
     background-color: rgb(230, 255, 120);
-    color: rgb(255, 255, 255);
+    color: rgb(255, 95, 95);
     text-align: center;
     height: 300px;
     padding: 15px;
@@ -42,7 +209,7 @@ ul {
     padding: 15px;
   }
   .article-3rd-bg {
-    background-color:rgb(230, 100, 100);
+    background-color:rgb(248, 32, 32);
     color: rgb(255, 255, 255);
     text-align: center;
     padding: 15px;
@@ -50,7 +217,7 @@ ul {
   }
 
   .article-4rd-bg {
-    background-color:rgb(200, 200, 100);
+    background-color:rgb(255, 198, 241);
     color: rgb(255, 255, 255);
     text-align: center;
     padding: 15px;
@@ -58,7 +225,7 @@ ul {
   }
   
   .article-5rd-bg {
-    background-color:rgb(16, 165, 165);
+    background-color:rgb(24, 255, 255);
     color: rgb(255, 255, 255);
     text-align: center;
 
@@ -124,7 +291,7 @@ ul {
   
   /* margin, padding, border test */
   .box-test {
-    background-color: rgb(10, 226, 93);
+    background-color: rgb(229, 233, 172);
     display: inline-block;
     border: 10px solid skyblue;
     margin: 10px;
@@ -134,14 +301,14 @@ ul {
   }
 
   .grid_container {
-    background-color: olivedrab;
+    background-color: midnightblue;
     display: grid;
     grid-gap: 10px;
     padding: 10px;
 }
 
 .grid_item {
-    background-color: rgb(161, 202, 99);
+    background-color: rgb(188, 171, 230);
     font-size: 20px;
     padding: 20px;
     text-align: center;
@@ -166,3 +333,21 @@ ul {
     grid-column: 2/ span 2;
     grid-row: 5;
 }
+
+.aside-bg {
+  border: 5px solid rgb(59, 26, 180);
+  height: 150px;
+  padding: 15px;
+  font-family: 'Nanum Brush Script', cursive;
+  font-size: 35px;
+
+}
+/* footer background */
+.footer-bg {
+  background-color: rgb(73, 73, 73);
+  color: aliceblue;
+  height: 40px;
+  padding-top: 12px;
+  text-align: center;
+}
+
