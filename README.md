@@ -21,7 +21,7 @@
 1. fullscreen background header
 2. 상단 메뉴 고정
 3. 드롭다운메뉴(css)
-4. ghost button(v0.5.0)
+4. ghost button(v0.5.0) 
 
 ## 2019.10.02
 1. css grid
