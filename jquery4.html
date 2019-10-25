@@ -1,0 +1,29 @@
+ <!-- 
+  * index.html v0.1.0 
+  * Update : 2019.10.25
+  * Author : DongWook.Synn 
+ --> 
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Event Basic</title>
+  <script src="http://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script>
+    //이벤트 연결
+    $(document).ready(function() {
+      //스타일 속성을 변경
+      $('button').click(function() { 
+         $('#page').fadeToggle('slow');  
+        });
+    });
+  </script>
+</head>
+<body>
+    <button>Toggle Show</button>
+    <div id="page">
+        <h1>Lorem ipsum dolor sit amet</h1>
+        <p>Lorem ipsum dolor sit amet,consectetur adipiscing elit.</p>
+    </div>
+</body>
+</html>
