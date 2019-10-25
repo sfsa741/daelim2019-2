@@ -1,0 +1,36 @@
+ <!-- 
+  * index.html v0.1.0 
+  * Update : 2019.10.25
+  * Author : DongWook.Synn 
+ --> 
+<!DOCTYPE html>
+<html lang="ko">
+<head> 
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>attrBasic</title>
+  <script src="http://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script>
+    $(document).ready(function() {
+      //속성을 지정
+      // $('img').attr('alt', '네이버 이미지');
+      // $('img').attr('src', 'https://postfiles.pstatic.net/MjAxODExMjlfMTE2/MDAxNTQzNDU5Nzc0NjMz.BUdc1HWvvvr3KOSHaKyiEkpiDgnXyItT4Oxs2Kyn4rgg.BIon1bMFCD6nqzhKRuuIV4KREs9RAgxofSzmEm6q42Eg.JPEG.zkdls91/B1%CD%BFA9BFEE_B8B8%C8%AD%C4%B3B8AFC5CD_%288%29.jpg?type=w580');
+      // $('img').attr('width', '300px');
+      // $('img').attr('height', '100px');
+      var src = $('img').attr({
+        alt: '네이버 이미지',
+        src : 'https://postfiles.pstatic.net/MjAxODExMjlfMTE2/MDAxNTQzNDU5Nzc0NjMz.BUdc1HWvvvr3KOSHaKyiEkpiDgnXyItT4Oxs2Kyn4rgg.BIon1bMFCD6nqzhKRuuIV4KREs9RAgxofSzmEm6q42Eg.JPEG.zkdls91/B1%CD%BFA9BFEE_B8B8%C8%AD%C4%B3B8AFC5CD_%288%29.jpg?type=w580',
+        width : 300,
+        height : 300,
+      })
+      //출력합니다.
+      //$('body').append('src');
+    });
+  </script>
+</head>
+<body>
+  <img>
+  <img>
+</body>
+</html>
