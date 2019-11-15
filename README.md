@@ -1,5 +1,12 @@
 # 이혜빈 : daelim2019-2 project
  
+## 2019.11.15
+#### bs-index.html생성
+1.부트스랩 네비게이션 생성.
+2.자동 슬라이드 생성
+3.버튼생성
+4.상황 몇퍼센트인지 막대기 생성
+
 ## 2019.10.25
 #### jquery_test.html, jquery.html, jquery_color, jquery4, jquery5, Frame Animation 생성
 1. 이벤트 연결
